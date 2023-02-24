@@ -16,25 +16,6 @@ h1{
   font-family: myriad-pro,helvetica,arial,sans-serif;
 }
 
-#toc_container {
-background: #f9f9f9 none repeat scroll 0 0;
-border: 1px solid #aaa;
-display: table;
-font-size: 85%;
-margin-bottom: 1em;
-padding: 20px;
-width: auto;
-margin-left: 550px;
-}
-
-.toc_title {
-font-weight: 700;
-text-align: center;
-}
-
-#toc_container li, #toc_container ul, #toc_container ul li{
-list-style: outside none none !important;
-}
 
 .b-example-divider {
     height: 3rem;
@@ -42,6 +23,10 @@ list-style: outside none none !important;
     border: solid rgba(0, 0, 0, .15);
     border-width: 1px 0;
     box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.content-flex{
+  margin-top: 30px;
 }
 
 .row {
